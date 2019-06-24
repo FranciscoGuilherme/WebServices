@@ -7,6 +7,7 @@ Read this documentation in English: [Click here](https://github.com/FranciscoGui
 - [Apresentação do projeto](#apresentacao)
 - [Configuração do ambiente](#instalacao)
 - [Execução](#execucao)
+- [Informações adicionais](#informacoes)
 
 ## <span id="apresentacao">Apresentação do projeto</span>
 
@@ -40,4 +41,15 @@ Estrutura inicial básica para a construção de uma API com ASP.NET
 - Coloque o container para funcionar
     ```sh
     $ docker-compose up
+    ```
+
+## <span id="informacoes">Informações adicionais</span>
+
+- Para criar o esquelelo base para projetos ASP.NET Web API
+    ```sh
+    $ dotnet new webapi -o <nome_projeto>
+    ```
+- Para executar aplicação com um observador de mudanças no código
+    ```sh
+    $ dotnet watch run
     ```

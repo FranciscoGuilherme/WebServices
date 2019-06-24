@@ -10,4 +10,4 @@ FROM microsoft/dotnet:2.2-aspnetcore-runtime AS runtime
 
 WORKDIR /app
 COPY --from=build /app/out .
-CMD dotnet ASP.NET.dll --urls "http://*:$PORT"
+ENTRYPOINT ["dotnet", "ASP.NET.dll"]

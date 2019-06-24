@@ -5,6 +5,7 @@
 - [Project Presentation](#presentation)
 - [Environment Configuration](#installation)
 - [Execution](#execution)
+- [Additional Information](#information)
 
 ## <span id="presentation">Project Presentation</span>
 
@@ -38,4 +39,15 @@ Basic initial structure for building an API with ASP.NET
 - Put the container to work
     ```sh
     $ docker-compose up
+    ```
+
+## <span id="information">Additional Information</span>
+
+- To create the base skeleton for ASP.NET Web API projects
+    ```sh
+    $ dotnet new webapi -o <project_name>
+    ```
+- To run application with an observer of changes in the code
+    ```sh
+    $ dotnet watch run
     ```
